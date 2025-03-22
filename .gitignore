@@ -1,0 +1,84 @@
+# Ignore build directories
+/build/
+/dist/
+/out/
+
+# Ignore object files and binaries
+*.o
+*.a
+*.so
+*.exe
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore node_modules directory (for Node.js projects)
+/node_modules/
+
+# Ignore environment variable files
+.env
+# Ignore IDE-specific files
+.vscode/
+.devcontainer/
+.idea/
+*.iml
+
+# Ignore ESP-IDF build artifacts
+/build/
+sdkconfig
+sdkconfig.old
+.espressif/
+.clangd/
+.ccls-cache/
+.vscode/
+.pytest_cache/
+.vscode/
+.vscode-test/
+.vscode-test-workspace/
+.vscode-test-workspace.code-workspace
+.vscode-test-workspace.code-workspace.backup
+.vscode-test-workspace.code-workspace.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup
+.vscode-test-workspace.code-workspace.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup.backup   # Ignore build directories
+/build/
+/dist/
+/out/
