@@ -15,9 +15,8 @@
 
 typedef struct temperature_data_struct { //structure of the latest temperature data stored locally
     int id;
-    int sec_since_last_update;
+    int time;
     float temperature_outside;
-    float temperature_inside;
 } temperature_data_struct;
 
 void on_data_receive(const esp_now_recv_info_t *recv_info, const uint8_t *data, int len);

@@ -11,7 +11,7 @@ QueueHandle_t temperature_data_queue;
 void on_data_receive(const esp_now_recv_info_t *recv_info, const uint8_t *data, int len) {
     static temperature_data_struct incDat;
     memcpy(&incDat, data, sizeof(incDat));
-
+    
     if (xQueueOverwrite(temperature_data_queue, &incDat) != pdPASS) {
         ESP_LOGE("Queue", "Failed to send temperature data to queue");
     }
